@@ -1,0 +1,16 @@
+The following instructions are  to be used to run the program using eclipse IDE.
+
+How to use the messenger program: -
+
+1. Run the StartMessageQueue Class.
+2. Run the Messenger Class.
+3. Run the MessageDisplay Class.
+4. Enter a name of the person sending a message in the textfield next to the "From:" label.
+5. Enter a name of the person receiving the message in the textfield next to the "To:" label.
+6. Enter the content of the message in the textfield next to the "Enter message:" label.
+7. Click the "Send" button to send the message and it will be displayed in the MessageDisplay class.
+8. Click the "Delete" button to delete a message object from the space.
+9. Click the "Save" button to save a message object to the  space.
+10. Click the "Receive" button to retrieve the saved object from the space.
+
+Note: JavaSpace has been set to "localhost".
