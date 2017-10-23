@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Petra</string>
+    <string name="hello_world">Application developed by: \n\nZuhair</string>
+    <string name="welcome_message">Petra</string>
+    <string name="image_text">Description</string>
+    <string name="image_text2">Monstery</string>
+    <string name="action_settings">About</string>
+    <string name="title_activity_main">Petra</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_petra">About Petra:-\n\nPetra is a historical and archaeological city in the southern Jordanian governorate of Ma\'an that is famous for its rock-cut architecture and water conduit system. Another name for Petra is the Rose City due to the color of the stone out of which it is carved.
+								\n\nEstablished possibly as early as 312 BC as the capital city of the Nabataeans, it is a symbol of Jordan, as well as Jordan\'s most-visited tourist attraction. It lies on the slope of Jebel al-Madhbah (identified by some as the biblical Mount Hor) in a basin among the mountains which form the eastern flank of Arabah (Wadi Araba), the large valley running from the Dead Sea to the Gulf of Aqaba. Petra has been a UNESCO World Heritage Site since 1985.
+								\n\nThe site remained unknown to the Western world until 1812, when it was introduced by Swiss explorer Johann Ludwig Burckhardt. It was described as "a rose-red city half as old as time" in a Newdigate Prize-winning poem by John William Burgon. UNESCO has described it as "one of the most precious cultural properties of man\'s cultural heritage".</string>
+    <string name="petra_source">Source:-  http://en.wikipedia.org/wiki/Petra</string>
+    
+    <string name="question_one">Petra</string>
+    
+    
+    
+    <string name="gallery">Gallery</string>
+    
+    
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_main_activity3">MainActivity3</string>
+    
+    <string name="question_four">question_four</string>
+    
+   
+
+
+</resources>
