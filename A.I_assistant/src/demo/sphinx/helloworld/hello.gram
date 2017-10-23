@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar hello;
+
+public <greet> = (Power Options |Program| Browser | Blue tooth |  Device Manager |Control |task manager);
+
+public <command> = (Open | Close) (command| calculator |word | access |pad |task manager|Browser);
+
+public <action> = (start | stop) (excel |word pad | recognize |speech);
+
+public <net> = (site) (face book | goo gil | mail);
+
+
