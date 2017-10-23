@@ -1,0 +1,30 @@
+//Camera idl code
+module ClientAndServer {
+
+	
+
+	
+    interface HomeHub {
+	// These operations return strings.
+	string fetch_status();
+	string sensorHit();
+	string submitAlarm();
+
+
+	void sensorPanic();
+	void cameraPanic();
+	void sensorCancel();
+	void cameraCancel();
+	string currentImage();
+    };
+    
+    interface Status {
+    
+    	string message();
+		void sensorPanic();
+		void cameraPanic();
+		string sensorHit();	
+
+
+    };			
+};

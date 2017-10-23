@@ -1,0 +1,19 @@
+How to start the Home security hub:-
+
+1. start the Regional Office
+
+	java RegOffice &
+
+2. start the HomeHub 
+
+    java HomeHub &
+
+3. start the camera client
+
+	java Camera &
+
+4 . start the sensor client 
+
+	java Sensor &
+
+

@@ -1,0 +1,49 @@
+// HomeHub idl code
+
+
+module ClientAndServer {
+
+	struct Alarm {
+					long time;
+					long date;
+					string sensor;
+					string room;
+				 };
+
+	struct Camera {
+					long time;
+					long date;
+					string sensor;
+					string room;
+				 };
+
+	struct Sensor {
+					long time;
+					long date;
+					string sensor;
+					string room;
+				 };
+	
+	
+    interface HomeHub {
+		
+		string fetch_status();
+		string sensorHit();
+		string submitAlarm();
+
+
+		void sensorPanic();
+		void cameraPanic();
+		void sensorCancel();
+		void cameraCancel();
+		string currentImage();
+		
+        string fetch_message();
+		void raise_alarm(in Alarm alarm);
+		//string current_status();
+		void add_camera(in Camera camera, in string room);
+		void add_sensor(in Sensor sensor, in string room);
+    };
+
+    		
+};

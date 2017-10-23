@@ -1,0 +1,32 @@
+//Regional Office idl code
+
+module ClientAndServer {
+
+	struct AlarmData {
+					string aReading;
+					string alarm_source;
+				 };
+	
+	
+    interface RegOffice {
+
+		
+        
+		void raiseAlarm(in AlarmData anAlarm);
+		void registerUser(in string who, in string contact_details);
+		
+		
+    };
+
+	interface Status {
+    
+    	string message();
+		void sensorPanic();
+		void cameraPanic();
+		string sensorHit();	
+
+
+    };	
+
+   		
+};
